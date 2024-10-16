@@ -16,6 +16,15 @@
         while (a < 5)
         {
             Console.WriteLine("abcdefg");
+            a++;
+        }
+
+        string napis = "abcl";
+        int licznik = 0;
+
+        foreach (char l in napis)
+        {
+            licznik++;
         }
     }
 }
